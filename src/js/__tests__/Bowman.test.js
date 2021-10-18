@@ -9,5 +9,5 @@ test('Должен создаваться объект класса Bowman с т
     attack: 25,
     defence: 25,
   };
-  expect(new Bowman('Вася')).toEqual(bowman);
+  expect(new Bowman('Вася', 'Bowman')).toEqual(bowman);
 });
